@@ -1,4 +1,4 @@
-
+[
 
 # DESTINDER
 
@@ -27,45 +27,54 @@ ntroducing Destinder - the ultimate app for avid travelers! Never forget your fa
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can create a account, log in.
+* Do not allow wrong passowrd and duplicate username.
+* User can choose to dislike or like a destination. 
+* The system saves the user choices in a different page.
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Sounds for liking
+* The user is able to log out, and log back in without having to restart the app.
+* When log in fails, there is prompts.
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login 
+* Register - User signs up or logs into their account
+* Main Screen - The user see a list of destinations, one by one on their screen.
+   * The user either chooses to swipe left (hate) or to swipe right (like)
+* Like list / Hate list
+* User screen Screen.
+    * Choose to log out.
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Log in
+* Destination
+* Liked page/ Disliked page
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Log in -> Account creation
+* User setting -> Log out -> Log in
+   
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+![](https://i.imgur.com/IQEoRjl.png)
+![](https://i.imgur.com/zwqfnmO.png)
+![](https://i.imgur.com/krEuyCK.png)
+![](https://i.imgur.com/QxoyhZZ.jpg)
+![](https://i.imgur.com/YRw6VKH.png)
+![](https://i.imgur.com/6WzuKIi.jpg)
+![](https://i.imgur.com/ZcZmyDG.png)
+
 
 ### [BONUS] Interactive Prototype
 
@@ -76,4 +85,4 @@ ntroducing Destinder - the ultimate app for avid travelers! Never forget your fa
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- [OPTIONAL: List endpoints if using existing API such as Yelp]](https://)
