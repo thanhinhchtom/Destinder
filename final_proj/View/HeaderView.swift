@@ -17,7 +17,7 @@ struct AlertSignOut: View {
         }
         .alert(isPresented: $showingAlert) {
             
-            Alert(title: Text("Alert"), message: Text("Do you want to change the message?"), primaryButton: .destructive(Text("Cancel")), secondaryButton: .default(Text("Sign out")) {
+            Alert(title: Text(""), message: Text("Are you sure?"), primaryButton: .destructive(Text("Cancel")), secondaryButton: .default(Text("Sign out")) {
                 // code to execute when "Sign out" button is tapped
                 viewModel.signOut()
             })

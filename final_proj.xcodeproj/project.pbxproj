@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		808A963E29E4A3A60053DFD7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 808A963D29E4A3A10053DFD7 /* GoogleService-Info.plist */; };
 		809518E629E4016400A964FA /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809518E529E4016400A964FA /* LikeView.swift */; };
 		80967A3C29E340D500837FB8 /* final_projApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80967A3B29E340D500837FB8 /* final_projApp.swift */; };
 		80967A3E29E340D500837FB8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80967A3D29E340D500837FB8 /* LoginView.swift */; };
@@ -30,9 +31,6 @@
 		80CE5D3629E40FC400C3775E /* TabControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE5D3529E40FC400C3775E /* TabControllerView.swift */; };
 		80DF661329E35EC700722D89 /* sound-click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 80DF661129E35EC700722D89 /* sound-click.mp3 */; };
 		80DF661429E35EC700722D89 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 80DF661229E35EC700722D89 /* sound-rise.mp3 */; };
-		80DF661629E3609D00722D89 /* Pods_final_proj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A4AD18BAE951BD24400D63 /* Pods_final_proj.framework */; };
-		80DF661729E3609D00722D89 /* Pods_final_proj.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6A4AD18BAE951BD24400D63 /* Pods_final_proj.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		80DF663629E36D5D00722D89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80DF663529E36D5D00722D89 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,7 +40,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				80DF661729E3609D00722D89 /* Pods_final_proj.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +49,7 @@
 /* Begin PBXFileReference section */
 		4E95EE35B77F36027569A706 /* Pods-final_proj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final_proj.debug.xcconfig"; path = "Target Support Files/Pods-final_proj/Pods-final_proj.debug.xcconfig"; sourceTree = "<group>"; };
 		7CFFA77D251F7D755ED6C744 /* Pods-final_proj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final_proj.release.xcconfig"; path = "Target Support Files/Pods-final_proj/Pods-final_proj.release.xcconfig"; sourceTree = "<group>"; };
+		808A963D29E4A3A10053DFD7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "final_proj/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		809518E529E4016400A964FA /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
 		80967A3B29E340D500837FB8 /* final_projApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final_projApp.swift; sourceTree = "<group>"; };
 		80967A3D29E340D500837FB8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -75,9 +73,7 @@
 		80CE5D3529E40FC400C3775E /* TabControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabControllerView.swift; sourceTree = "<group>"; };
 		80DF661129E35EC700722D89 /* sound-click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-click.mp3"; sourceTree = "<group>"; };
 		80DF661229E35EC700722D89 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
-		80DF663429E36CB600722D89 /* final_proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = final_proj.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		80DF663529E36D5D00722D89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		B6A4AD18BAE951BD24400D63 /* Pods_final_proj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_final_proj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DF663429E36CB600722D89 /* final_proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = final_proj.app; path = "/Users/lechi/Desktop/CS490 IOS/final_proj/build/Debug-iphoneos/final_proj.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80DF661629E3609D00722D89 /* Pods_final_proj.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,17 +99,15 @@
 		80967A2F29E340D500837FB8 = {
 			isa = PBXGroup;
 			children = (
+				808A963D29E4A3A10053DFD7 /* GoogleService-Info.plist */,
 				80967A3A29E340D500837FB8 /* final_proj */,
 				F495B5A615403CDA58F11C1F /* Pods */,
-				D237D0612063E61ABA5A3EF9 /* Frameworks */,
-				80DF663429E36CB600722D89 /* final_proj.app */,
 			);
 			sourceTree = "<group>";
 		};
 		80967A3A29E340D500837FB8 /* final_proj */ = {
 			isa = PBXGroup;
 			children = (
-				80DF663529E36D5D00722D89 /* GoogleService-Info.plist */,
 				803264E829E38EBA00780C10 /* Sound */,
 				80967A6D29E346F900837FB8 /* Helper */,
 				80967A6829E346B000837FB8 /* Component */,
@@ -205,14 +198,6 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		D237D0612063E61ABA5A3EF9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B6A4AD18BAE951BD24400D63 /* Pods_final_proj.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		F495B5A615403CDA58F11C1F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,12 +268,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80DF663629E36D5D00722D89 /* GoogleService-Info.plist in Resources */,
 				80DF661329E35EC700722D89 /* sound-click.mp3 in Resources */,
 				80967A4329E340D600837FB8 /* Preview Assets.xcassets in Resources */,
 				80DF661429E35EC700722D89 /* sound-rise.mp3 in Resources */,
 				80967A7E29E3507C00837FB8 /* Launch Screen.storyboard in Resources */,
 				80967A4029E340D600837FB8 /* Assets.xcassets in Resources */,
+				808A963E29E4A3A60053DFD7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
