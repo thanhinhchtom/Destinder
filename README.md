@@ -6,7 +6,6 @@
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
-2. [Schema](#Schema)
 
 ## Overview
 ### Description
@@ -63,10 +62,9 @@ ntroducing Destinder - the ultimate app for avid travelers! Never forget your fa
    
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
-### [BONUS] Digital Wireframes & Mockups
+### Digital Wireframes & Mockups
 ![](https://i.imgur.com/IQEoRjl.png)
 ![](https://i.imgur.com/zwqfnmO.png)
 ![](https://i.imgur.com/krEuyCK.png)
@@ -74,15 +72,3 @@ ntroducing Destinder - the ultimate app for avid travelers! Never forget your fa
 ![](https://i.imgur.com/YRw6VKH.png)
 ![](https://i.imgur.com/6WzuKIi.jpg)
 ![](https://i.imgur.com/ZcZmyDG.png)
-
-
-### [BONUS] Interactive Prototype
-
-## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
-### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]](https://)
